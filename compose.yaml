@@ -1,0 +1,7 @@
+services:
+  ioc:
+    build: .
+    ports:
+      - "8080:8080"
+name: ioc-app
+version: 1.0.0
